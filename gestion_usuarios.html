@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Usuarios - Escuela de Formación SAMA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../controlador/controlador.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gestión de Usuarios - Escuela de Formación SAMA</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="gestion_usuarios.html">Gestión de Usuarios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main-content">
+            <h2>Agregar Nuevo Usuario</h2>
+            <form id="addUserForm">
+                <label for="newUsername">Usuario:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+                <label for="newPassword">Contraseña:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+                <button type="submit">Agregar Usuario</button>
+            </form>
+            <h2>Lista de Usuarios</h2>
+            <ul id="userList">
+                <!-- Lista de usuarios aquí -->
+            </ul>
+        </section>
+        <section class="images">
+            <div class="image-container">
+                <img src="one.webp" alt="Imagen 1" class="floating-image">
+                <img src="three.webp" alt="Imagen 2" class="floating-image">
+                <img src="uno.webp" alt="Imagen 3" class="floating-image">
+            </div>
+        </section>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
+    <footer>
+        <p>&copy; 2024 Escuela de Formación SAMA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
